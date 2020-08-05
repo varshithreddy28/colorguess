@@ -1,0 +1,66 @@
+body{
+	background: #232323;
+}
+
+.square{
+	width: 30%;
+	background: red;
+	padding-bottom: 30%;/*in this there is noo content
+	 so padding gives 30%of height from the ending*/
+	margin: 1.66%;
+	float: right;
+	animation-fill-mode: 5;
+	transition: all 1s ease-out;
+	border-radius: 20%;
+}
+.container{
+	max-width: 650px;
+}
+#winner{
+	color: white;
+}
+.heading{
+	height: 100px;
+	background: #EBE8E7;
+	transition: all 1s ease-out;
+}
+.display-5{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+	letter-spacing: 1px;
+}
+#rgb{
+	font-family: 'Raleway', sans-serif;
+}
+button{
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+#winner{
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	width: 52%;
+	text-align: center;
+	font-size: 2rem;
+	transition: margin-right 2s .5s;
+}
+.disp{
+	color: #EBE8E7;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 2rem;
+	margin-left: 15px;
+	transition: background 2s .5s;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#name{
+	text-align: center;
+	letter-spacing: 0.5px;
+}
