@@ -4,7 +4,7 @@ body{
 
 .square{
 	width: 30%;
-	background: red;
+	background: #232323;
 	padding-bottom: 30%;/*in this there is noo content
 	 so padding gives 30%of height from the ending*/
 	margin: 1.66%;
